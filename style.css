@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;800&display=swap');
+
+body {
+  background-image: url("https://i.pinimg.com/originals/3b/81/65/3b8165a39ed98717c7bf759304d1ea26.jpg");
+  background-size: cover;
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  color: rgb(70,70,70);
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  border: 3px solid #674188;
+}
+
+h1 {
+  color: #674188;
+  font-weight: 800;
+  letter-spacing: 0.2em;
+  font-family: Open Sans, sans-serif;
+  font-size: 30px;
+}
+
+h2 {
+  color: #674188;
+  font-weight: 500;
+  font-family: Open Sans, sans-serif;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.button {
+  width: fit-content;
+  margin: 0 auto;
+  background-color: #C3ACD0;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-right: -2em;
+}
+
+i {
+  font-size: 30px;
+  letter-spacing: 2em;
+}
+
+ul > li:hover {
+  opacity: 0.8;
+}
+
+.list-inline > li {
+  display: inline;
+}
+
+.container {
+  background-color: #FDEBED;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #C3ACD0;
+  margin: 20px 100px;
+  padding: 0.5px;
+}
+
+.class {
+  background-color: rgb(250,250,250);
+  border-radius: 5px;
+  width: 80%;
+  margin: 20px auto;
+  padding: 0.01px;
+}
+
+#id {
+  padding: 1px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    margin: 20px 100px;
+    }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    margin: 20px 50px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    margin: 20px 30px;
+  }
+}
